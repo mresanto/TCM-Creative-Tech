@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Constrain_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Activity.Registro">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Cadastro"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_reg_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="CPF"
+        android:inputType="textPersonName"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint" />
+
+    <EditText
+        android:id="@+id/txt_reg_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Nome completo"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"/>
+
+
+    <EditText
+        android:id="@+id/txt_reg_tell"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="(00)00000-0000"
+        android:inputType="textPersonName"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint" />
+
+    <EditText
+        android:id="@+id/txt_reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"
+        android:maxLength="150"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/txt_reg_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"
+        android:maxLength="20"/>
+
+    <EditText
+        android:id="@+id/txt_reg_senhac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Confirme sua senha"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"
+        android:maxLength="20"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btn_reg_Enviar_cli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/continuar" />
+
+    <Button
+        android:id="@+id/btn_up_Cancel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/cancelar" />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Activity.Update_Cliente">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/atualizar_dados_cadastrais"
+        android:textColor="?attr/textcolor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_up_nome_cli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nome_completo"
+        android:inputType="textPersonName"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint" />
+
+    <EditText
+        android:id="@+id/txt_up_email_cli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/txt_up_endereco_cli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/endere_o"
+        android:inputType="text"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"/>
+
+    <Button
+        android:id="@+id/btnMapa"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/abrir_mapa_com_endere_o"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#00BCD4" />
+
+    <EditText
+        android:id="@+id/txt_up_tell_cli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/_00_00000_0000"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"
+        tools:ignore="LabelFor"  />
+
+    <TextView
+        android:id="@+id/txt_up_cpf"
+        style="@android:style/Widget.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/cpf"
+        android:importantForAutofill="no"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint" />
+
+    <Button
+        android:id="@+id/btn_up_reg_cli"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/atualizar" />
+
+    <Button
+        android:id="@+id/btn_up_Cancel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:textColor="?attr/textcolor"
+        android:text="@string/voltar" />
+
+    <TextView
+        android:id="@+id/txt_mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"
+        tools:ignore="LabelFor" />
+</LinearLayout>

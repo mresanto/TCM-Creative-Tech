@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Activity.Menu_Cliente">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/cliente"
+        android:textColor="?attr/textcolor"
+        android:textSize="32sp" />
+    <Button
+        android:id="@+id/btnGerenciaCli"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/gerencia_clientes"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnCadastrarCli"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/cadastrar_clientes"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#00BCD4" />
+
+
+</LinearLayout>

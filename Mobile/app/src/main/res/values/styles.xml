@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackgroundcolor">#ffffff</item>
+        <item name="textcolor">#000000</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">#03DAC5</item>
+        <item name="hint">#808080</item>
+        <item name="colorControlNormal">#a9a9a9</item>
+        <item name="colorControlActivated">#03DAC5</item>
+        <item name="controlativ">#fff</item>
+        <item name="colorControlHighlight">@color/accent_material_light</item>
+
+
+
+    </style>
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#3700B3</item>
+        <item name="backgroundcolor">#000000</item>
+        <item name="cardbackgroundcolor">#303030</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">#3700B3</item>
+        <item name="hint">#fff</item>
+        <item name="colorControlNormal">#a9a9a9</item>
+        <item name="colorControlActivated">#3700B3</item>
+        <item name="colorControlHighlight">#fff</item>
+    </style>
+</resources>

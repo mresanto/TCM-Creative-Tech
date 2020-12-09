@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">CreativeTech</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Senha">Senha</string>
+    <string name="Enviar">Login</string>
+    <string name="registrar">Registrar</string>
+    <string name="title_activity_forgot_password">
+        Recuperação de senha
+    </string>
+
+    <string name="forgot_password_info">
+        Informe abaixo o seu e-mail de login e em seguida acesse
+        o e-mail para prosseguir com o passo a passo de recuperação
+        de acesso.
+    </string>
+    <string name="hint_login_email">E-mail de login</string>
+    <string name="recover_password">Recuperar senha</string>
+    <string name="recover_password_going">Enviando&#8230;</string>
+    <string name="invalid_login_email">
+        E-mail não encontrado em nossa base de dados.
+    </string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirma_senha">Confirma Senha</string>
+    <string name="continuar">Continuar</string>
+    <string name="senha">Senha</string>
+    <string name="funciona">Funciona</string>
+    <string name="bem_vindo">Bem vindo</string>
+    <string name="string_bem_vindo" />
+    <string name="string_string_bem_vindo" />
+    <string name="bem_vindoo">Bem Vindo</string>
+    <string name="usuario">Usuario</string>
+    <string name="button">Button</string>
+    <string name="menu">Menu</string>
+    <string name="gerencia_clientes">Gerencia Clientes</string>
+    <string name="ver_servi_os">Ver Serviços</string>
+    <string name="cadastrar_clientes">Cadastrar Clientes</string>
+    <string name="cadastro_cliente">Cadastro Cliente</string>
+    <string name="e_mail">E-mail</string>
+    <string name="_00_00000_0000">(00)00000-0000</string>
+    <string name="cadastrar">cadastrar</string>
+    <string name="nome_do_cliente">Nome do Cliente</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="textview">TextView</string>
+    <string name="update_cliente">Update Cliente</string>
+    <string name="CPF">CPF</string>
+    <string name="cadastrar_servi_os">Cadastrar serviços</string>
+    <string name="cadastro_de_servi_o">Cadastro de Serviço</string>
+    <string name="titulo_do_servi_o">Titulo do Serviço</string>
+    <string name="tela_de_servi_o">Tela de Serviço</string>
+    <string name="mobile">Mobile</string>
+    <string name="desktop">Desktop</string>
+    <string name="site">Site</string>
+    <string name="infraestrutura">Infraestrutura</string>
+    <string name="banco_de_dados">Banco de Dados</string>
+    <string name="deixei_suas_observa_es_sobre_o_pedido">Deixei suas observações sobre o pedido</string>
+    <string name="aceitar_pedido">Aceitar Pedido</string>
+    <string name="cpf">CPF</string>
+    <string name="mapa">Mapa</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="adicionar_relat_rio">Adicionar Relatório</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="data_entrega">Data Entrega</string>
+    <string name="relatorio">Relatorio</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="email">Email</string>
+    <string name="endere_o">Endereço</string>
+    <string name="telefone">Telefone</string>
+    <string name="cliente">Cliente</string>
+    <string name="servi_os">Serviços</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="sobre_a_empresa">Sobre a Empresa</string>
+    <string name="sobre">Sobre</string>
+    <string name="data_do_pedido">Data do Pedido</string>
+    <string name="voltar">Voltar</string>
+    <string name="abrir_mapa_com_endere_o">Abrir Mapa Com Endereço</string>
+    <string name="atualizar_dados_cadastrais">Atualizar Dados Cadastrais</string>
+
+
+</resources>

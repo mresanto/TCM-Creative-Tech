@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Activity.Cadastrar_Servico">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Abrir Pedido de Serviço"
+        android:textColor="?attr/textcolor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_nome_ser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nome_do_cliente"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"/>
+
+    <EditText
+        android:id="@+id/txt_titulo_ser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Título de Serviço"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint"/>
+
+    <EditText
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Data de Entrega"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColor="?attr/textcolor"
+        android:textColorHint="?attr/hint" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:text="Site" />
+
+        <CheckBox
+            android:id="@+id/checkTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:text="Desktop" />
+
+        <CheckBox
+            android:id="@+id/checkThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:text="Mobile" />
+
+        <CheckBox
+            android:id="@+id/checkFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:text="Infraestrutura" />
+
+        <CheckBox
+            android:id="@+id/checkFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textcolor"
+            android:text="Banco de Dados" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_up_obs_text"
+            android:layout_width="235dp"
+            android:layout_height="138dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="bottom|start|right|left"
+            android:hint="Deixei suas observações sobre o pedido"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:textColor="?attr/textcolor"
+            android:textColorHint="?attr/hint" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_EnviarSer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="CRIAR PEDIDO" />
+    <Button
+        android:id="@+id/btn_Cancel"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/cancelar"
+        android:textColor="?attr/textcolor" />
+
+
+</LinearLayout>
